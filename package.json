@@ -1,0 +1,42 @@
+{
+  "name": "vue-finances-front",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve --port 8000",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "apollo-boost": "^0.3.1",
+    "chart.js": "^2.8.0",
+    "graphql": "^14.1.1",
+    "material-design-icons-iconfont": "^3.0.3",
+    "md5": "^2.2.1",
+    "moment": "^2.24.0",
+    "roboto-fontface": "*",
+    "rxjs": "^6.5.1",
+    "vue": "^2.6.9",
+    "vue-router": "^3.0.1",
+    "vuelidate": "^0.7.4",
+    "vuetify": "^1.5.7",
+    "vuex": "^3.1.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.5.1",
+    "@vue/cli-plugin-eslint": "^3.5.1",
+    "@vue/cli-service": "^3.5.1",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.15.3",
+    "eslint-plugin-vue": "^5.2.2",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.1.0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1",
+    "vue-cli-plugin-apollo": "^0.19.2",
+    "vue-cli-plugin-vuetify": "^0.5.0",
+    "vue-template-compiler": "^2.6.9",
+    "vuetify-loader": "^1.2.1"
+  }
+}
